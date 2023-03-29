@@ -33,8 +33,8 @@ public class ThermoSliderRotator : MonoBehaviour
 
         float mappedValue = (rotationValue - 0f) * ((outputMax - outputMin) / (1f - 0f)) + outputMin;
 
-        objectToRotate.transform.rotation = Quaternion.Euler(0f, 0f, mappedValue);
-        Debug.Log("Mapped value: " + mappedValue); // Outputs "Mapped value: 90"
+        objectToRotate.transform.localRotation = Quaternion.Euler(0f, 0f, mappedValue);
+        // Debug.Log("Mapped value: " + mappedValue); // Outputs "Mapped value: 90"
 
         //map temp
         int temperature = Mathf.RoundToInt(rotationSlider.value * (MAX_TEMP - MIN_TEMP)) + MIN_TEMP;
