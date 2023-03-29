@@ -5,6 +5,8 @@ using UnityEngine;
 public class TransformFollow : MonoBehaviour
 {
     public GameObject follower;
+    public GameObject follower2;
+
     public string influencerName;
     public Vector3 positionOffset;
     public Vector3 rotationOffset;
@@ -33,6 +35,8 @@ public class TransformFollow : MonoBehaviour
         {
             Debug.Log("Parent is " +  influencer.transform.parent.name);
             follower.transform.position = influencer.transform.position + positionOffset;
+                        follower2.transform.position = influencer.transform.position + positionOffset;
+
             // follower.transform.eulerAngles = influencer.transform.eulerAngles + rotationOffset;
         }
 
