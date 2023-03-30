@@ -1,21 +1,19 @@
 # Reality Interface
  
-Investigating the role of traditional physical user interfaces in an increasingly augmented world.
+Investigating the role of conventional physical user interfaces in an increasingly augmented world.
 Will we retain some of the tangible interactions we have grown accustomed to as interfaces and screens merge with our Reality even further?
 
-## Slider Thermostat
+## Slider Experiment
 ![AR Experiment #1](https://github.com/troglodisme/MCX/blob/main/gifs/MCX_low.gif)
 
-
-Interaction design is a crucial aspect of creating compelling and intuitive augmented reality experiences, especially when it comes to incorporating physical interactions. With the proliferation of augmented reality devices (👓 soon?), users will expect a seamless and intuitive way to interact with both digital and physical elements in their environment.
+With the proliferation of augmented reality devices (👓 soon?), users might want a seamless and intuitive way to interact with both digital and physical elements in their environment. I was curious to see if and how these two could cohabit in our home environement, and how we could interact with mundane things such as our thermostats, sound systems, doorbells and calendars. 
 
 In this context, physical inputs like knobs or buttons can provide a tangible and intuitive way for users to control and manipulate digital content. By incorporating these physical inputs into augmented reality scenarios, designers can create more immersive and engaging experiences that feel more like real-world interactions.
 
-## Encoder Thermostat Experiment
-Although I didn't have an encoder at hand, so still using the slider for now
+I experimented with connecting a microcontroller (ESP32) to Unity using OSC, in order to allow the user to interact physically with digital elements (currently displaying text and modifying the posigion of 3d elements).
+
+## Encoder Experiment
+(I didn't have an encoder at hand, so still using a slider for now)
 ![AR Experiment #2](https://github.com/troglodisme/MCX/blob/main/gifs/MCX2.gif)
 
-
-However, the challenge for interaction designers is to create interfaces that are intuitive and easy to use, while also offering the flexibility and complexity needed to support a range of interactions. To achieve this, designers must carefully consider the mapping between physical inputs and digital outputs, as well as the feedback mechanisms that can help users understand how their actions are affecting the digital environment.
-
-Overall, designing for augmented reality glasses requires a deep understanding of both physical and digital interactions, as well as a willingness to experiment and iterate to find the most effective and engaging design solutions. With the right approach, designers can create truly transformative experiences that blur the boundaries between the physical and digital worlds.
+Overall, this quick experiment allowed me to get a basic understanding of the tools needed to prototype interactions in augmented reality. Much more work is needed to develop a deep understanding of both physical and digital interactions, as well as a to experiment and iterate to find the most effective and engaging design solutions. With the right approach, designers will be able create truly transformative experiences that blur the boundaries between the physical and digital worlds.
