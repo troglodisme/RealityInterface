@@ -12,7 +12,7 @@ I built a series of experiments to interact with Augmented Reality using physica
 - OSC
 
 
-### Demos ###
+### Demo ###
 ![AR Experiment #1](https://github.com/troglodisme/MCX/blob/main/gifs/MCX_low.gif)
 
 (I didn't have an encoder at hand, so still using a slider for now)
